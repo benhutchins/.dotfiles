@@ -26,5 +26,19 @@ function use_sublime () {
   }
 }
 
-use_sublime
+function use_atom () {
+  export ATOM_EDITOR_PATH=`which atom`
+  export EDITOR="$ATOM_EDITOR_PATH"
+  export GEM_OPEN_EDITOR="$ATOM_EDITOR_PATH"
+
+  function a {
+    if [ "$1" != "" ]; then
+      atom $1
+    else
+      atom .
+    fi
+  }
+}
+
+use_atom
 
