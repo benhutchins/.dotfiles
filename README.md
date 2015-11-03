@@ -7,23 +7,23 @@ general productivity improvements.
 
 # Install
 
-To install, you will be cloning this repository into ~/.dotfiles.
+To install, you will be cloning this repository into `~/.dotfiles`.
 
 	cd ~
-	git clone git@github.com:kevinelliott/.dotfiles.git
+	git clone git@github.com:benhutchins/.dotfiles.git
 
-Then you will activate the .dotfiles by including the following line to ~/.bash_profile
+Then you will activate the .dotfiles by including the following line to `~/.bash_profile`
 
-	source ~/.dotfiles/base.sh
+	echo 'source ~/.dotfiles/base.sh' >> ~/.bash_profile
 
 # Credits
 
-Thanks to @drnic for his own .dotfiles repository for inspiration and the idea for how to set this up. Look at his repositories if
-you'd like to see some other examples for how to do this.
+Thanks to @kevinelliott and @drnic for their own .dotfiles repositories for inspiration and the idea for how to set this up.
+Look at their repositories if you'd like to see some other examples for how to do this.
 
 # Copyright
 
-Copyright © 2011 Kevin Elliott
+Copyright © 2015 Benjamin Hutchins
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
