@@ -12,7 +12,14 @@ This is my guide to setup a fresh Mac install, from scratch.
   export HOMEBREW_GITHUB_API_TOKEN="access_token"
   ```
 
-2. Install Brew
+2. Clone this repo
+
+  ```bash
+  git clone git@github.com:benhutchins/.dotfiles ~/.dotfiles
+  # requires setup of ssh key, might as well do it now
+  ```
+
+3. Install Brew
 
   See https://bash.sh/
 
@@ -20,7 +27,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
 
-3. Install App Things
+4. Install App Things
 
   ```bash
   # Install apps
@@ -39,13 +46,13 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install vlc
   ```
 
-4. Finish installing LastPass
+5. Finish installing LastPass
 
   ```bash
   open /usr/local/Caskroom/lastpass/latest/LastPass\ Installer.app
   ```
 
-5. Install Development Things
+6. Install Development Things
 
   ```bash
   brew install git
@@ -62,14 +69,14 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install heroku
   ```
 
-6. Setup docker
+7. Setup docker
 
   ```bash
   brew cask install docker
   open /Applications/Docker.app
   ```
 
-7. Setup fish
+8. Setup fish
 
   ```bash
   brew install fish
@@ -79,27 +86,30 @@ This is my guide to setup a fresh Mac install, from scratch.
   ln -s ~/.dotfiles/fish.config ~/.config/fish/config.fish
   ```
 
-8. Setup rvm
+9. Setup rvm
 
   ```bash
-  curl -sSL https://get.rvm.io | bash -s stable --ruby
+  xcode-select --install
+  curl -sSL https://get.rvm.io | bash -s stable
+  omf install rvm
   gem install bundler
   ```
 
-9. Setup Spideroak One
+10. Setup Spideroak One
 
   ```bash
   mkdir -p ~/Sync/Personal/
   open /Applications/SpiderOakONE.app/
   ```
 
-10. Clone this repo
+11. Install Parallels
 
-   ```bash
-   git clone git@github.com:benhutchins/.dotfiles ~/.dotfiles
-   ```
+  ```bash
+  brew cask install parallels-desktop
+  open /Applications/Parallels\ Desktop.app/
+  ```
 
-11. Prep for projects
+12. Prep for projects
 
   ```bash
   mkdir -p ~/projects/personal
