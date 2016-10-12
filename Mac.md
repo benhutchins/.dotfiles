@@ -62,7 +62,14 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install heroku
   ```
 
-6. Setup fish
+6. Setup docker
+
+  ```bash
+  brew cask install docker
+  open /Applications/Docker.app
+  ```
+
+7. Setup fish
 
   ```bash
   brew install fish
@@ -72,27 +79,27 @@ This is my guide to setup a fresh Mac install, from scratch.
   ln -s ~/.dotfiles/fish.config ~/.config/fish/config.fish
   ```
 
-6. Setup rvm
+8. Setup rvm
 
   ```bash
   curl -sSL https://get.rvm.io | bash -s stable --ruby
   gem install bundler
   ```
 
-7. Setup Spideroak One
+9. Setup Spideroak One
 
   ```bash
   mkdir -p ~/Sync/Personal/
   open /Applications/SpiderOakONE.app/
   ```
 
-8. Clone this repo
+10. Clone this repo
 
    ```bash
    git clone git@github.com:benhutchins/.dotfiles ~/.dotfiles
    ```
 
-9. Prep for projects
+11. Prep for projects
 
   ```bash
   mkdir -p ~/projects/personal
