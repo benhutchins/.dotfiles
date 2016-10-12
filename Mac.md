@@ -44,6 +44,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install skype
   brew cask install teamspeak-client
   brew cask install vlc
+  brew cask install teamviewer
   ```
 
 5. Finish installing LastPass
