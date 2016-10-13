@@ -42,6 +42,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install sourcetree
   brew cask install bettertouchtool
   brew cask install skype
+  brew cask install microsoft-lync
   brew cask install teamspeak-client
   brew cask install vlc
   brew cask install teamviewer
