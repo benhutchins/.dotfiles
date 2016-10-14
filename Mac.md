@@ -30,23 +30,37 @@ This is my guide to setup a fresh Mac install, from scratch.
 4. Install App Things
 
   ```bash
-  # Install apps
+  # common apps
   brew cask install iterm2
   brew cask install google-chrome
-  brew cask install google-hangouts
+
+  # personal apps
   brew cask install spideroakone
-  brew cask install slack
   brew cask install lastpass
+
+  # IDEs and development toolings
   brew cask install atom
   brew cask install sublime-text
   brew cask install sourcetree
-  brew cask install bettertouchtool
+
+  # communication
+  brew cask install slack
   brew cask install skype
   brew cask install microsoft-lync
   brew cask install teamspeak-client
-  brew cask install vlc
-  brew cask install teamviewer
+
+  # productivity apps
+  brew cask install bettertouchtool
   brew cask install alfred
+
+  # networking
+  brew cask install teamviewer
+  brew cask install viscosity
+
+  # entertainment games
+  brew cask install vlc
+  brew cask install steam
+  brew cask install openemu
   ```
 
 5. Finish installing LastPass
@@ -70,6 +84,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install brew install homebrew/versions/mysql56
   brew install ruby
   brew install heroku
+  brew cask install chefdk
   ```
 
 7. Setup docker
