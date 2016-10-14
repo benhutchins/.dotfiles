@@ -81,7 +81,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install mongodb
   brew install redis
   # this specific version of mysql is needed for the ruby gem mysql2
-  brew install brew install homebrew/versions/mysql56
+  brew install homebrew/versions/mysql56
   brew install ruby
   brew install heroku
   brew cask install chefdk
