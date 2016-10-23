@@ -52,6 +52,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   # productivity apps
   brew cask install bettertouchtool
   brew cask install alfred
+  brew cask install libreoffice
 
   # networking
   brew cask install teamviewer
