@@ -85,6 +85,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install homebrew/versions/mysql56
   brew install ruby
   brew install heroku
+  brew install wget
   brew cask install chefdk
   ```
 
