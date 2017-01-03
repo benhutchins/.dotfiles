@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<ApplicationMonitor xmlns="http://tempuri.org/Programs.xsd">
+  <program>
+    <name>Duluge Daemon</name>
+    <time>15.00</time>
+    <path>"C:\Program Files (x86)\Deluge\deluged.exe"</path>
+    <check>false</check>
+  </program>
+  <program>
+    <name>Mongoose</name>
+    <time>15.00</time>
+    <path>"C:\Apps\mongoose\mongoose.exe"</path>
+    <check>false</check>
+  </program>
+</ApplicationMonitor>

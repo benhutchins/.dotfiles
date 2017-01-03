@@ -34,10 +34,6 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install iterm2
   brew cask install google-chrome
 
-  # personal apps
-  brew cask install spideroakone
-  brew cask install lastpass
-
   # IDEs and development toolings
   brew cask install atom
   brew cask install sublime-text
@@ -56,7 +52,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   # networking
   brew cask install teamviewer
-  brew cask install viscosity
+  # brew cask install viscosity
 
   # entertainment games
   brew cask install vlc
@@ -64,9 +60,12 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install openemu
   ```
 
-5. Finish installing LastPass
+5. Install LastPass (optional)
+
+  FYI. I no longer recommend using the LastPass installer.
 
   ```bash
+  brew cask install lastpass
   open /usr/local/Caskroom/lastpass/latest/LastPass\ Installer.app
   ```
 
@@ -79,24 +78,20 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install node
   brew install nvm
   brew install go
-  brew install mongodb
-  brew install redis
-  # this specific version of mysql is needed for the ruby gem mysql2
-  brew install homebrew/versions/mysql56
   brew install ruby
   brew install heroku
   brew install wget
   brew cask install chefdk
   ```
 
-7. Setup docker
+7. Setup Docker
 
   ```bash
   brew cask install docker
   open /Applications/Docker.app
   ```
 
-8. Setup fish
+8. Setup Fish Shell
 
   ```bash
   brew install fish
@@ -106,7 +101,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   ln -s ~/.dotfiles/fish.config ~/.config/fish/config.fish
   ```
 
-9. Setup rvm
+9. Setup Ruby Version Manager (rvm)
 
   ```bash
   xcode-select --install
@@ -115,11 +110,13 @@ This is my guide to setup a fresh Mac install, from scratch.
   gem install bundler
   ```
 
-10. Setup Spideroak One
+10. Setup Syncthing
 
   ```bash
   mkdir -p ~/Sync/Personal/
-  open /Applications/SpiderOakONE.app/
+  brew install syncthing
+  brew services start syncthing
+  brew cask install syncthing-bar
   ```
 
 11. Install Parallels
