@@ -98,7 +98,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   curl -L http://get.oh-my.fish | fish
   brew install direnv
   ln -s ~/.dotfiles/envrc.sh ~/.envrc
-  ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
+  ln -s ~/.dotfiles/configs/fish/config.fish ~/.config/fish/conf.d/dotfiles.fish
   ```
 
 9. Setup Ruby Version Manager (rvm)
