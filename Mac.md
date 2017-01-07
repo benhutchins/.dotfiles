@@ -21,7 +21,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 
 3. Install Brew
 
-  See https://bash.sh/
+  See http://brew.sh/
 
   ```bash
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -130,4 +130,11 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   ```bash
   mkdir -p ~/projects/personal
+  ```
+
+13. Fix Mac issues
+
+  ```bash
+  # Disable creation of .DT_STORE files
+  sudo defaults write com.apple.desktopservices DSDontWriteNetworkStores true
   ```
