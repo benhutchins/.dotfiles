@@ -82,6 +82,8 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install heroku
   brew install wget
   brew cask install chefdk
+  brew install awscli
+  brew install gpg
   ```
 
 7. Setup Docker
