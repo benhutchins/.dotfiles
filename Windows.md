@@ -103,3 +103,18 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   Use a watchdog program to ensure Deluge Daemon and Mongoose are restarted upon a crash.
 
   - [Application Monitor](http://www.jockersoft.com/english/appmonitor_index.php)
+
+12. Disable Crap & Crapware
+
+  - OneDrive [guide](https://support.office.com/en-us/article/Turn-off-or-uninstall-OneDrive-f32a17ce-3336-40fe-9c38-6efb09f944b0)
+  - Cortona [guide](http://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10)
+  - Telemetry [guide](http://winaero.com/blog/how-to-disable-telemetry-and-data-collection-in-windows-10/)
+
+13. Enable Linux Subsystem
+
+  See the [official guide](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
+  
+  For reference, the lxss directory will be avaialble at:
+  
+  `%LocalAppData%\lxss\`
+
