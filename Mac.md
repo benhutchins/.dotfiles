@@ -37,7 +37,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   # IDEs and development toolings
   brew cask install atom
-  brew cask install sublime-text
+  # brew cask install sublime-text
   brew cask install sourcetree
 
   # communication
@@ -48,26 +48,17 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   # productivity apps
   brew cask install bettertouchtool
-  brew cask install alfred
   brew cask install libreoffice
 
   # networking
   brew cask install teamviewer
-  # brew cask install viscosity
+  brew cask install viscosity
+  brew cask install transmission
 
   # entertainment games
   brew cask install vlc
   brew cask install steam
   brew cask install openemu
-  ```
-
-5. Install LastPass (optional)
-
-  FYI. I no longer recommend using the LastPass installer.
-
-  ```bash
-  brew cask install lastpass
-  open /usr/local/Caskroom/lastpass/latest/LastPass\ Installer.app
   ```
 
 6. Install Development Things
@@ -80,9 +71,9 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install nvm
   brew install go
   brew install ruby
-  brew install heroku
+  # brew install heroku
   brew install wget
-  brew cask install chefdk
+  # brew cask install chefdk
   brew install awscli
   brew install gpg
   ```
@@ -118,7 +109,6 @@ This is my guide to setup a fresh Mac install, from scratch.
   ```bash
   mkdir -p ~/Sync/Personal/
   brew install syncthing
-  brew services start syncthing
   brew cask install syncthing-bar
   ```
 
