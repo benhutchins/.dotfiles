@@ -12,13 +12,6 @@ This is my guide to setup a fresh Mac install, from scratch.
   export HOMEBREW_GITHUB_API_TOKEN="access_token"
   ```
 
-2. Clone this repo
-
-  ```bash
-  git clone git@github.com:benhutchins/.dotfiles ~/.dotfiles
-  # requires setup of ssh key, might as well do it now
-  ```
-
 3. Install Brew
 
   See http://brew.sh/
@@ -76,6 +69,15 @@ This is my guide to setup a fresh Mac install, from scratch.
   # brew cask install chefdk
   brew install awscli
   brew install gpg
+  ```
+
+1. Setup Git
+
+  ```bash
+  cd ~
+  git clone git@github.com:benhutchins/.dotfiles.git
+  git config --global user.email "ben@hutchins.co"
+  git config --global user.name "Benjamin Hutchins"
   ```
 
 7. Setup Docker
