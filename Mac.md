@@ -4,7 +4,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 
 ## Steps
 
-1. Setup Github Access (Optional)
+### Setup Github Access (Optional)
 
   Visit https://github.com/settings/tokens/new?scopes=&description=Homebrew and generate a new access token. While this is optional, you'll likely hit some API limits without it.
 
@@ -12,7 +12,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   export HOMEBREW_GITHUB_API_TOKEN="access_token"
   ```
 
-3. Install Brew
+### Install Brew
 
   See http://brew.sh/
 
@@ -20,7 +20,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
 
-4. Install App Things
+### Install App Things
 
   ```bash
   # common apps
@@ -54,7 +54,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install openemu
   ```
 
-6. Install Development Things
+### Install Development Things
 
   ```bash
   brew install git
@@ -71,7 +71,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install gpg
   ```
 
-1. Setup Git
+### Setup Git
 
   ```bash
   cd ~
@@ -80,14 +80,14 @@ This is my guide to setup a fresh Mac install, from scratch.
   git config --global user.name "Benjamin Hutchins"
   ```
 
-7. Setup Docker
+### Setup Docker
 
   ```bash
   brew cask install docker
   open /Applications/Docker.app
   ```
 
-8. Setup Fish Shell
+### Setup Fish Shell
 
   ```bash
   brew install fish
@@ -97,7 +97,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   ln -s ~/.dotfiles/configs/fish/config.fish ~/.config/fish/conf.d/dotfiles.fish
   ```
 
-9. Setup Ruby Version Manager (rvm)
+### Setup Ruby Version Manager (rvm)
 
   ```bash
   xcode-select --install
@@ -106,7 +106,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   gem install bundler
   ```
 
-10. Setup Syncthing
+### Setup Syncthing
 
   ```bash
   mkdir -p ~/Sync/Personal/
@@ -114,20 +114,20 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install syncthing-bar
   ```
 
-11. Install Parallels
+### Install Parallels
 
   ```bash
   brew cask install parallels-desktop
   open /Applications/Parallels\ Desktop.app/
   ```
 
-12. Prep for projects
+### Prep for projects
 
   ```bash
   mkdir -p ~/projects/personal
   ```
 
-13. Fix Mac issues
+### Fix Mac issues
 
   ```bash
   # Disable creation of .DT_STORE files on network drives

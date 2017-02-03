@@ -4,7 +4,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
 
 ## Steps
 
-1. Use Ninite
+### Use Ninite
 
   See https://ninite.com/
 
@@ -26,7 +26,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
     - Putty (optional; use the `ssh` from the `lxss`)
     - Steam (optional; if this computer will be for personal use)
 
-2. Setup Editors
+### Setup Editors
 
   - [Vim](http://www.vim.org/download.php#pc)
 
@@ -34,7 +34,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
 
   - [Atom](https://atom.io/download/windows)
 
-3. Setup Syncthing
+### Setup Syncthing
 
   Download executable from https://syncthing.net/
 
@@ -46,7 +46,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
   ```
 
-4. Additional Applications
+### Additional Applications
 
   - [Slack](https://slack.com/downloads/windows)
   - Skype (pre-installed on Windows 10 now)
@@ -54,7 +54,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   - [Microsoft Office](https://www.office.com/myaccount) (if you didn't install LibreOffice)
   - [Logitech Alert Commander](http://support.logitech.com/en_us/software/alert-software)
 
-5. Gaming Things
+### Gaming Things
 
   - [Corsair Link](http://www.corsair.com/en-us/support/downloads) (for fan control)
   - [Logitech Gaming Software](http://support.logitech.com/en_us/software/lgs) (for G930)
@@ -65,7 +65,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   - [Proxifier](https://www.proxifier.com/download.htm)
   - [PIA Client](https://www.privateinternetaccess.com/installer/download_installer_win)
 
-7. Additional Utilities
+### Additional Utilities
 
   - [CoreTemp](http://www.alcpu.com/CoreTemp/)
   - [ProcessExplorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx)
@@ -90,13 +90,13 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
 
   - [Application Monitor](http://www.jockersoft.com/english/appmonitor_index.php)
 
-11. Disable Crap & Crapware
+### Disable Crap & Crapware
 
   - OneDrive [guide](https://support.office.com/en-us/article/Turn-off-or-uninstall-OneDrive-f32a17ce-3336-40fe-9c38-6efb09f944b0)
   - Cortona [guide](http://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10)
   - Telemetry [guide](http://winaero.com/blog/how-to-disable-telemetry-and-data-collection-in-windows-10/)
 
-12. Enable Linux Subsystem (`lxss`)
+### Enable Linux Subsystem (`lxss`)
 
   See the [official guide](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
   
@@ -104,7 +104,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   
   `%LocalAppData%\lxss\`
 
-13. Install Development Things
+### Install Development Things
 
   Either for Windows:
 
