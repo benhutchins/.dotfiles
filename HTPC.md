@@ -1,6 +1,6 @@
 # HTPC
 
-This guide extends the [Windows](Windows) setup guide with more details on
+This guide extends the [Windows](Windows.md) setup guide with more details on
 configuring a HTPC, full of automation, downloaders, indexers, and media sharing.
 
 ## Steps

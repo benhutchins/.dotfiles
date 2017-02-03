@@ -97,4 +97,4 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
 
 ## More
 
-- See [HTPC](HTPC) guide for setting up downloaders, indexers, media apps
+- See [HTPC](HTPC.md) guide for setting up downloaders, indexers, media apps
