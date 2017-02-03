@@ -130,6 +130,25 @@ This is my guide to setup a fresh Mac install, from scratch.
 13. Fix Mac issues
 
   ```bash
-  # Disable creation of .DT_STORE files
+  # Disable creation of .DT_STORE files on network drives
   sudo defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+  
+  # Don't show warnings when renaming file extensions
+  sudo defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+  
+  # Show hidden (.) files
+  sudo defaults write com.apple.finder AppleShowAllFiles -bool true
+  
+  # Privacy: Disable Bonjour Advertising
+  sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool true
   ```
+
+### Configure Finder
+
+  1. Open Finder
+  2. Open preferences (⌘+,)
+  3. General Tab → New Finder windows show: (select user)
+  4. Advanced Tab → [x] Show all filename extensions
+  5. Advanced Tab → [x] Remove items from Trash after 30 days
+  6. Advanced Tab → [x] Keep folder on top when sorting by name
+  7. Sidebar Tab → [x] User's home directory
