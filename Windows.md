@@ -60,35 +60,11 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   - [Logitech Gaming Software](http://support.logitech.com/en_us/software/lgs) (for G930)
   - [Stinkyboard](http://stinkyboard.com/support/)
 
-6. Privacy Things
-
-  - [Proxifier](https://www.proxifier.com/download.htm)
-  - [PIA Client](https://www.privateinternetaccess.com/installer/download_installer_win)
-
 ### Additional Utilities
 
   - [CoreTemp](http://www.alcpu.com/CoreTemp/)
   - [ProcessExplorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx)
   - [RegexRenamer](http://regexrenamer.sourceforge.net/)
-
-8. Downloading Tools
-
-  - Deluge, uTorrent, or Transmission for torrents
-  - [sabnzbd](https://sabnzbd.org/) for usergroups
-  - [Internet Download Manager]
-  - [Sonarr](https://sonarr.tv/) (preferred) or [Sickbeard](http://sickbeard.com/) for series
-  - [CouchPotato](https://couchpota.to/) for movies
-
-9. Sharing
-
-  - [Plex](https://www.plex.tv/downloads/) or [Emby](https://emby.media/download.html)
-  - [Mongoose](https://www.cesanta.com/#binary) for a static file web server
-
-10. Watchdog
-
-  Use a watchdog program to ensure Deluge Daemon and Mongoose are restarted upon a crash.
-
-  - [Application Monitor](http://www.jockersoft.com/english/appmonitor_index.php)
 
 ### Disable Crap & Crapware
 
@@ -118,3 +94,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   sudo apt-get update
   sudo apt-get install git -y
   ```
+
+## More
+
+- See [HTPC](HTPC) guide for setting up downloaders, indexers, media apps
