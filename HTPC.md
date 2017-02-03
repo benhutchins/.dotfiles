@@ -3,11 +3,9 @@
 This guide extends the [Windows](Windows.md) setup guide with more details on
 configuring a HTPC, full of automation, downloaders, indexers, and media sharing.
 
-## Steps
+## Privacy Things
 
-### Privacy Things
-
-#### Proxifier
+### Proxifier
 
 Download and install [Proxifier](https://www.proxifier.com/download.htm).
 
@@ -57,14 +55,14 @@ Now add rules!
     PIA
     ```
 
-#### Others
+### Others
 
   - [Tor Browser](https://www.torproject.org/download/download-easy.html.en)
   - [PIA Client](https://www.privateinternetaccess.com/installer/download_installer_win)
   
-### Downloading Tools
+## Downloading Tools
 
-#### Torrent Client (Deluge)
+### Torrent Client (Deluge)
 
 My torrent client of choice is Deluge. Alternatively use uTorrent.
 
@@ -137,7 +135,7 @@ Configure for downloads
       - Location > ✓ Apply location settings
         - ✓ Move completed to: `D:\downloads\movies`
 
-#### Usenets
+### Usenets
 
 Download [sabnzbd](https://sabnzbd.org/)
 
@@ -170,7 +168,7 @@ During setup:
     - `tv` Folder/Path `D:\downloads\shows`
     - `movies` Folder/Path `D:\downloads\movies`
 
-#### Sonarr
+### Sonarr
 
 Download [Sonarr](https://sonarr.tv/).
 You can also use [Sickbeard](http://sickbeard.com/), if preferred.
@@ -214,17 +212,17 @@ Open, go to Settings.
     - Rarbg
     - Nyaa
 
-#### Other
+### Other
 
   - [Internet Download Manager]
   - [CouchPotato](https://couchpota.to/) for movies
 
-### Sharing
+## File / Media Sharing
 
   - [Plex](https://www.plex.tv/downloads/) or [Emby](https://emby.media/download.html)
   - [Mongoose](https://www.cesanta.com/#binary) for a static file web server
 
-### Watchdog
+## Watchdog
 
   Use a watchdog program to ensure Deluge Daemon and Mongoose are restarted upon a crash.
 
