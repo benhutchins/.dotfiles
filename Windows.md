@@ -71,6 +71,7 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   - OneDrive [guide](https://support.office.com/en-us/article/Turn-off-or-uninstall-OneDrive-f32a17ce-3336-40fe-9c38-6efb09f944b0)
   - Cortona [guide](http://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10)
   - Telemetry [guide](http://winaero.com/blog/how-to-disable-telemetry-and-data-collection-in-windows-10/)
+  - Background Apps [guide](http://superuser.com/questions/958210/why-do-windows-10-foreground-apps-mysteriously-launch-as-background-processes#960213)
 
 ### Enable Linux Subsystem (`lxss`)
 
