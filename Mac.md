@@ -152,3 +152,17 @@ This is my guide to setup a fresh Mac install, from scratch.
   5. Advanced Tab → [x] Remove items from Trash after 30 days
   6. Advanced Tab → [x] Keep folder on top when sorting by name
   7. Sidebar Tab → [x] User's home directory
+
+### Configure iTerm
+
+This will sync iTerm profile, colors, and key shortcuts.
+
+*Note*: If you are copying mine, you will want to update the Profile's working directory.
+
+  1. Open iTerm
+  2. General > Preferences
+     ✓ Load preferences from a custom folder or URL
+     ~/Sync/Configs/iterm
+  3. Restart iTerm
+  4. General > Preferences
+     ✓ Save changes to folder when iTerm2 quits
