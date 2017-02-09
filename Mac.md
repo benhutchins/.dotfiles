@@ -48,7 +48,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install viscosity
   brew cask install deluge
 
-  # entertainment games
+  # entertainment & games
   brew cask install vlc
   brew cask install steam
   brew cask install openemu
