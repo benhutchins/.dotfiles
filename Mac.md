@@ -41,7 +41,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   # productivity apps
   brew cask install bettertouchtool
-  brew cask install libreoffice
+  brew cask install libreoffice # install if you don't have Microsoft Office for Mac
 
   # networking
   brew cask install teamviewer
