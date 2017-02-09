@@ -58,7 +58,6 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   ```bash
   brew install git
-  brew install git-flow
   brew install vim # updates vim to latest
   brew install node
   brew install nvm
