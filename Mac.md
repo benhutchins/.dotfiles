@@ -46,7 +46,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   # networking
   brew cask install teamviewer
   brew cask install viscosity
-  brew cask install transmission
+  brew cask install deluge
 
   # entertainment games
   brew cask install vlc
