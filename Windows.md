@@ -73,6 +73,19 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   - Telemetry [guide](http://winaero.com/blog/how-to-disable-telemetry-and-data-collection-in-windows-10/)
   - Background Apps [guide](http://superuser.com/questions/958210/why-do-windows-10-foreground-apps-mysteriously-launch-as-background-processes#960213)
 
+### Disable services
+
+  - Geolocation Service
+  - Sync Host (Disable Mail, Contacts, Calendar syncing)
+  - 3D Print Service
+  - Connected User Experiences and Telemetry (stop sending reports to Microsoft)
+  - Downloaded Maps Manager (never use the Maps app, and Geolocation is off, so this is pointless)
+  - Google Update Service
+  - Microsoft Office ClickToRun Service
+  - Superfetch (optional, apps startup slightly slower, but you have less background crap going on, meaning the apps you are running run faster)
+  - Network Connection Broker (optional, disables most App Store Apps)
+  - Windows Search (optional)
+
 ### Enable Linux Subsystem (`lxss`)
 
   See the [official guide](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
