@@ -75,6 +75,8 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
 
 ### Disable services
 
+Open Services, by typing Services into your start menu.
+
   - Geolocation Service
   - Sync Host (Disable Mail, Contacts, Calendar syncing)
   - 3D Print Service
@@ -85,6 +87,17 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   - Superfetch (optional, apps startup slightly slower, but you have less background crap going on, meaning the apps you are running run faster)
   - Network Connection Broker (optional, disables most App Store Apps)
   - Windows Search (optional)
+
+### Disable Tasks
+
+Open Task Scheduler, by typing Task Scheduler into your start menu.
+
+    Task Scheduler Library:
+      - Google Update, disable
+      Microsoft:
+        Office:
+          - Office ClickToRun Service Monitor, disable
+          - OfficeTelemetryAgent*, disable
 
 ### Enable Linux Subsystem (`lxss`)
 
