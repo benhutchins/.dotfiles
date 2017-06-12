@@ -66,6 +66,12 @@ This is my guide to setup a fresh Windows 10+ install, from scratch.
   - [ProcessExplorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx)
   - [RegexRenamer](http://regexrenamer.sourceforge.net/)
 
+### Disable Hibernation
+
+  Run Command Prompt as an Administrator, then run:
+
+    powercfg.exe /hibernate off
+
 ### Disable Crap & Crapware
 
   - OneDrive [guide](https://support.office.com/en-us/article/Turn-off-or-uninstall-OneDrive-f32a17ce-3336-40fe-9c38-6efb09f944b0)
