@@ -105,12 +105,11 @@ This is my guide to setup a fresh Mac install, from scratch.
   gem install bundler
   ```
 
-### Setup Syncthing
+### Setup Resilio Sync
 
   ```bash
-  mkdir -p ~/Sync/Personal/
-  brew install syncthing
-  brew cask install syncthing-bar
+  mkdir ~/Sync/
+  brew cask install resilio-sync
   ```
 
 ### Install Parallels
