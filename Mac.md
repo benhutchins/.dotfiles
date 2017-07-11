@@ -142,6 +142,16 @@ This is my guide to setup a fresh Mac install, from scratch.
   sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool true
   ```
 
+### Configure Keyboard
+
+Disable Smart Quotes, because this messes things up in a lot of apps when trying to
+message someone a snippet of code.
+
+  1. Open System Preferences
+  2. Keyboard (section)
+  3. Text (tab)
+  4. Unselect `Use smart quotes and dashes`
+
 ### Configure Finder
 
   1. Open Finder
