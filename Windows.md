@@ -103,6 +103,7 @@ Open Task Scheduler, by typing Task Scheduler into your start menu.
       Microsoft:
         Office:
           - Office ClickToRun Service Monitor, disable
+            ^ This will prevent Office products from opening
           - OfficeTelemetryAgent*, disable
 
 ### Enable Linux Subsystem (`lxss`)
