@@ -31,3 +31,5 @@ alias gbc='git branch --color'
 alias gba='git branch -a'
 alias gco='git checkout'
 alias gpatch='git diff master -p'
+alias git-stash-pop-force='git stash show -p | git apply && git stash drop'
+
