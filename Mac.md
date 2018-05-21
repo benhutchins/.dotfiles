@@ -29,19 +29,22 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install google-chrome
 
   # IDEs and development toolings
+  brew cask install visual-studio-code
   brew cask install atom
-  # brew cask install sublime-text
-  brew cask install sourcetree
 
   # communication
   brew cask install slack
   brew cask install skype
-  brew cask install microsoft-lync
-  brew cask install teamspeak-client
+  brew cask install discord
 
   # productivity apps
   brew cask install bettertouchtool
   brew cask install libreoffice # install if you don't have Microsoft Office for Mac
+
+  # security and privacy
+  brew cask install 1password
+  brew cask install keybase
+  # antivirus of some kind, e.g. https://home.sophos.com/
 
   # networking
   brew cask install teamviewer
@@ -63,9 +66,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew install nvm
   brew install go
   brew install ruby
-  # brew install heroku
   brew install wget
-  # brew cask install chefdk
   brew install awscli
   brew install gpg
   ```
