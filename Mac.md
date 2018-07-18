@@ -38,11 +38,13 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install discord
 
   # productivity apps
+  brew cask install alfred
   brew cask install bettertouchtool
   brew cask install libreoffice # install if you don't have Microsoft Office for Mac
 
   # security and privacy
   brew cask install 1password
+  brew cask install authy
   brew cask install keybase
   # antivirus of some kind, e.g. https://home.sophos.com/
 
