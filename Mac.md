@@ -165,6 +165,32 @@ message someone a snippet of code.
   7. Sidebar Tab → [x] User's home directory
   8. Sidebar Tab → [ ] Recents
 
+### Security & Privacy
+
+#### Enable Firewall
+
+  1. Open System Preferences
+  2. Go to Security & Privacy
+  3. Go to Firewall tab
+  4. Turn On Firewall
+
+Not sure why that was off by default.
+
+#### Disable analytics
+
+  1. Open System Preferences
+  2. Go to Security & Privacy
+  3. Go to Privacy tab
+  4. Select Analytics
+  5. Uncheck everything
+
+#### Enable FileVault
+
+  1. Open System Preferences
+  2. Go to Security & Privacy
+  3. Go to FileVault tab
+  4. Enable FileVault
+
 ### Configure iTerm
 
 This will sync iTerm profile, colors, and key shortcuts.
