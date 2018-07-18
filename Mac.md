@@ -118,7 +118,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 ### Install Parallels
 
   ```bash
-  brew cask install parallels-desktop
+  brew cask install parallels
   open /Applications/Parallels\ Desktop.app/
   ```
 
@@ -163,6 +163,7 @@ message someone a snippet of code.
   5. Advanced Tab → [x] Remove items from Trash after 30 days
   6. Advanced Tab → [x] Keep folder on top when sorting by name
   7. Sidebar Tab → [x] User's home directory
+  8. Sidebar Tab → [ ] Recents
 
 ### Configure iTerm
 
