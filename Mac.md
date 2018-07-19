@@ -32,6 +32,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   # IDEs and development toolings
   brew cask install visual-studio-code
   brew cask install atom
+  brew cask install postman
 
   # communication
   brew cask install slack
