@@ -41,7 +41,6 @@ This is my guide to setup a fresh Mac install, from scratch.
   # brew cask install discord
 
   # productivity apps
-  brew cask install evernote
   brew cask install alfred
   brew cask install bettertouchtool
   brew cask install libreoffice # install if you don't have Microsoft Office for Mac
