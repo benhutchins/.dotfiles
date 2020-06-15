@@ -36,6 +36,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   # communication
   brew cask install slack
+  brew cask install telegram
   # brew cask install skype
   # brew cask install discord
 
