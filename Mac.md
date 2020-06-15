@@ -31,14 +31,13 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   # IDEs and development toolings
   brew cask install visual-studio-code
-  brew cask install atom
   brew cask install postman
   brew cask install sqlectron
 
   # communication
   brew cask install slack
-  brew cask install skype
-  brew cask install discord
+  # brew cask install skype
+  # brew cask install discord
 
   # productivity apps
   brew cask install evernote
@@ -49,11 +48,11 @@ This is my guide to setup a fresh Mac install, from scratch.
   # security and privacy
   brew cask install 1password
   brew cask install authy
-  brew cask install keybase
+  # brew cask install keybase
   # antivirus of some kind, e.g. https://home.sophos.com/
 
   # networking
-  brew cask install teamviewer
+  brew cask install anydesk
   brew cask install viscosity
   brew cask install deluge
 
