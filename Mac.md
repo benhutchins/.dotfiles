@@ -31,6 +31,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   # IDEs and development toolings
   brew cask install visual-studio-code
+  brew cask install sublime-merge
   brew cask install postman
   brew cask install sqlectron
 
