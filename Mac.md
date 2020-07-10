@@ -146,6 +146,10 @@ This is my guide to setup a fresh Mac install, from scratch.
   
   # Privacy: Disable Bonjour Advertising
   sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool true
+  
+  # Ensure Font Smoothing is disabled (it causes fonts to render blurry)
+  defaults write -g AppleFontSmoothing -int 0 # this accepts 1 for light, 2 for medium, 3 for strong font smoothing; 0 is disabled
+  defaults write -g CGFontRenderingFontSmoothingDisabled -bool TRUE
   ```
 
 ### Configure Keyboard
