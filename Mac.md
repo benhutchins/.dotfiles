@@ -25,6 +25,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   ```bash
   # common apps
   brew cask install iterm2
+  brew cask install choosy
   brew cask install firefox
   brew cask install google-chrome
   brew cask install the-unarchiver
