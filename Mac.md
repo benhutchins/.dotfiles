@@ -46,6 +46,7 @@ This is my guide to setup a fresh Mac install, from scratch.
   brew cask install alfred
   brew cask install bettertouchtool
   brew cask install libreoffice # install if you don't have Microsoft Office for Mac
+  brew cask install microsoft-office # install if you have Microsoft Office for Mac
 
   # security and privacy
   brew cask install 1password
