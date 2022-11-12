@@ -17,52 +17,52 @@ This is my guide to setup a fresh Mac install, from scratch.
   See http://brew.sh/
 
   ```bash
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
 
 ### Install App Things
 
   ```bash
   # common apps
-  brew cask install iterm2
-  brew cask install choosy
-  brew cask install firefox
-  brew cask install google-chrome
-  brew cask install the-unarchiver
+  brew install iterm2
+  brew install choosy
+  brew install firefox
+  brew install google-chrome
+  brew install the-unarchiver
 
   # IDEs and development toolings
-  brew cask install visual-studio-code
-  brew cask install sublime-merge
-  brew cask install postman
-  brew cask install sqlectron
+  brew install visual-studio-code
+  brew install sublime-merge
+  brew install postman
+  brew install sqlectron
 
   # communication
-  brew cask install slack
-  brew cask install telegram
-  # brew cask install skype
-  # brew cask install discord
+  brew install slack
+  brew install telegram
+  # brew install skype
+  # brew install discord
 
   # productivity apps
-  brew cask install alfred
-  brew cask install bettertouchtool
-  brew cask install libreoffice # install if you don't have Microsoft Office for Mac
-  brew cask install microsoft-office # install if you have Microsoft Office for Mac
+  brew install alfred
+  brew install bettertouchtool
+  brew install libreoffice # install if you don't have Microsoft Office for Mac
+  brew install microsoft-office # install if you have Microsoft Office for Mac
 
   # security and privacy
-  brew cask install 1password
-  brew cask install authy
-  # brew cask install keybase
+  brew install 1password
+  brew install authy
+  # brew install keybase
   # antivirus of some kind, e.g. https://home.sophos.com/
 
   # networking
-  brew cask install anydesk
-  brew cask install viscosity
-  brew cask install deluge
+  brew install anydesk
+  brew install viscosity
+  brew install deluge
 
   # entertainment & games
-  brew cask install vlc
-  brew cask install steam
-  brew cask install openemu
+  brew install vlc
+  brew install steam
+  brew install openemu
   ```
 
 ### Install Development Things
@@ -91,7 +91,7 @@ This is my guide to setup a fresh Mac install, from scratch.
 ### Setup Docker
 
   ```bash
-  brew cask install docker
+  brew install docker
   open /Applications/Docker.app
   ```
 
@@ -118,13 +118,13 @@ This is my guide to setup a fresh Mac install, from scratch.
 
   ```bash
   mkdir ~/Sync/
-  brew cask install resilio-sync
+  brew install resilio-sync
   ```
 
 ### Install Parallels
 
   ```bash
-  brew cask install parallels
+  brew install parallels
   open /Applications/Parallels\ Desktop.app/
   ```
 
